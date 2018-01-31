@@ -50,6 +50,7 @@
     font-weight: bold;
     color: rgb(38, 53, 85);
     line-height: 2.2;
+    height: 0px;
 }
 .our-principles {
     border-bottom: 1px solid #d3d3d3;
