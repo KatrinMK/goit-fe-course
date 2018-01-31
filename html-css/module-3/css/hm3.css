@@ -11,11 +11,14 @@
     padding: 30px 36px 36px 36px;
     margin: auto;
 }
+.plane {
+    display: block;
+    margin-top: 30px;
+    width: 408px;
+}
 .title {
     text-transform: uppercase;
     font-size: 24px;
-    padding-top: 30px;
-    margin-bottom: 30px;
     font-family: 'Pathway Gothic One', sans-serif;
     color: #263555;
 }
@@ -29,18 +32,32 @@
 .text {
     font-size: 12px;
     line-height: 16px;
-    margin-bottom: 20px;
     font-family: Arial, sans-serif;
 }
 .li {
     list-style-type: none;
 }
 .column {
+    columns: 2;
     display: inline-block;
-    margin: 18px 12px 0px;
+    margin: 35px 0px 0px 22px;
     vertical-align: top;
 }
-hr.style1{
-    border-top: 1px 20px 0px 0px solid #8c8b8b;
-    margin: 50px 0px 50px;
+.list {
+    list-style-type: none;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(38, 53, 85);
+    line-height: 2.2;
+}
+.our-principles {
+    border-bottom: 1px solid #d3d3d3;
+    padding-bottom: 50px;
+}
+.what-we-offer {
+    margin-top: 50px;
+}
+.agency {
+    margin: 30px 0px;
 }
