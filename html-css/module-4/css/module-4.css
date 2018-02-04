@@ -1,0 +1,68 @@
+.container {
+
+    background-image: url("page-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 40px 0px 60px;
+}
+.wrapper {
+    width: 1026px;
+    height: 1300px;
+    background: white;
+    padding: 118px 62px 90px;
+    margin: auto;
+}
+.left {
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
+}
+.right {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-left: 9%;
+    counter-reset: counter;
+}
+.top {
+    border-bottom: 1px gray;
+}
+.layer {
+    width: 360px;
+    height: 280px;
+    float: left;
+    display: inline-block;
+    margin-right: 22px;
+}
+.title {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+
+}
+.small-title {
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+.text {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    vertical-align: top;
+}
+.column {
+    columns: 2;
+}
+.before::before, .before::after {
+    content: "";
+    display: inline-иblock;
+    width: 210px;
+    height: 190px;
+    background: #dedbdb;
+}
+.arrow::before {
+    content: "\2192";
+    margin-right: 14px;
+}
+  
