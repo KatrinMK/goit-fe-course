@@ -9,7 +9,7 @@
     width: 1026px;
     /* height: 1300px; */
     background: white;
-    padding: 118px 62px 90px;
+    padding: 116px 62px 86px;
     margin: auto;
 }
 .top {
@@ -26,7 +26,7 @@
     width: 358px;
     height: 286px;
     float: left;
-    margin: 0px 22px 24px 0px;
+    margin: 0px 22px 22px 0px;
 }
 .clearfix::after {
     content:" ";
@@ -46,33 +46,30 @@
     text-transform: uppercase;
     color: #263555;
     line-height: 1.2;
+    margin-bottom: 48px; 
 }
-.small-title {
+.subtitle {
     font-size: 15px;
     color: #263555;
     line-height: 19px;
+    margin-bottom: 14px;
 }
-
 .text {
     font-size: 13px;
     vertical-align: top;
     line-height: 19px;
-    margin-bottom: 30px;
-    color: rgb(78, 80, 80);
 }
-.up {
-    margin-bottom: 46px;
-}
-.subtitle {
-    margin-bottom: 14px;
-}
-.margin {
-    margin: 0px;
+.firth {
+    margin-bottom: 16px;
 }
 .list {
     counter-increment: counter;
     vertical-align: top;
     display: inline-block;
+    margin-bottom: 30px;
+}
+.list:last-child {
+    margin-bottom: 0px;
 }
 .list-one {
     display: inline-block;
@@ -91,31 +88,21 @@
     color: #fff;
     vertical-align: top;
 }
+.what {
+    margin: 0px;
+}
+.cum {
+    margin: 68px 0px 30px;
+}
 .column {
     columns: 2;
-}
-.comma::before {
-    content: "\201C";
-}
-.comma::after {
-    content: "\201D";
-}
-.border {
-    background-color: #d3d3d3;
-    border-radius: 4px;
-    width: 210px;
-    height: 190px;
-    padding: 22px;
-    border: 1px solid gray;
-    margin-bottom: 30px;
+    margin-top: 28px;
 }
 .arrow {
-    margin-bottom: 24px;
     font-size: 15px;
     font-weight: bold;
-}
-.arrow:last-child( -2) {
-    margin-bottom: 0px;
+    line-height: 38px;
+    color: #263555;
 }
 .arrow::before {
     content: " ";
@@ -127,11 +114,26 @@
     background-position: center;
     margin-right: 14px;
 }
-.cum {
-    margin: 68px 0px 30px;
+.test {
+    margin-bottom: 25px;
+}
+
+.comma::before {
+    content: "\201C";
+}
+.comma::after {
+    content: "\201D";
+}
+.border {
+    background-color: #d3d3d3;
+    border-radius: 4px;
+    /* width: 210px; */
+    height: 190px;
+    padding: 23px;
+    border: 1px solid gray;
+    margin-bottom: 30px;
 }
 .mark {
-    font-family: Arial, sans-serif;
     font-size: 15px;
     font-weight: bold;
     margin-bottom: 16px;
@@ -140,9 +142,7 @@
 }
 .director {
     font-size: 12px;
-    font-family: Arial, sans-serif;
     text-align: center;
-    width: 185px;
     height: 14px;
     color: rgb(78, 80, 80);
 }
