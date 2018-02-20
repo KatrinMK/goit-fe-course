@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.wrapper {
+    width: 1920px;
+    height: 1690px;
+    background-color: #fff;
+}
+.container {
+    max-width: 1220px;
+    padding: 0 5px;
+    margin: auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 27px;
+}
+.mogo {
+    font-size: 30px;
+    color: #9ce3d6;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    vertical-align: top;
+}
+.menu {
+    flex-basis: 60%;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-item {
+    text-align: center;
+}
+.nav-item:hover {
+    content: "";
+    color: #f38181;
+    padding-bottom: 12px;
+    border-bottom: 3px solid #f38181;
+}
+.nav-link {
+    color: #95e1d3;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+}
+.we-work-with {
+    margin: 134px 0;
+}
+.service {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.serv {
+    flex-basis: 30%;
+}
+.img-article {
+
+}
+.ALARM {
+  background-color: rgb(149, 225, 211);
+  position: absolute;
+  left: 390px;
+  top: 387px;
+  width: 32px;
+  height: 31px;
+  z-index: 18;
+}
+.article-title {
+    font-size: 14px;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    color: #333333;
+}
+.Photography {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+    position: absolute;
+    left: 449.937px;
+    top: 382.6px;
+    z-index: 19;
+  }
+.article-text {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    color: #999999;
+
+}
+.Lorem_ipsum_dolor_sit_amet__consectetur_adipisc {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(153, 153, 153);
+    line-height: 1.6;
+    text-align: left;
+    position: absolute;
+    left: 449.5px;
+    top: 437.619px;
+    width: 273px;
+    height: 39px;
+    z-index: 20;
+  }
+  
