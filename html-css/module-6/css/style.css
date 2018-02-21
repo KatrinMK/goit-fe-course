@@ -56,6 +56,22 @@ ul {
 .we-work-with {
     margin: 134px 0;
 }
+.title {
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 44px;
+}
+.subtitle {
+    font-style: 24px;
+    font-family: "KaushanScript", sans-serif;
+    text-align: center;
+    color: #333;
+    margin-bottom: 22px;
+}
 .service {
     display: flex;
     justify-content: space-between;
@@ -63,18 +79,23 @@ ul {
 }
 .serv {
     flex-basis: 30%;
+    margin-bottom: 100px;
 }
-.img-article {
+
+.article {
+    display: flex;
+    justify-content: space-between;
 
 }
-.ALARM {
-  background-color: rgb(149, 225, 211);
-  position: absolute;
-  left: 390px;
-  top: 387px;
-  width: 32px;
-  height: 31px;
-  z-index: 18;
+.serv:nth-child(n+3) {
+    margin-bottom: 0;
+}
+.box {
+    flex-basis: 80%;
+}
+.img-article {
+    width: 40px;
+    height: 35px;
 }
 .article-title {
     font-size: 14px;
@@ -82,35 +103,59 @@ ul {
     text-transform: uppercase;
     color: #333333;
 }
-.Photography {
-    font-size: 14px;
-    font-family: "Montserrat", sans-serif;
-    color: rgb(51, 51, 51);
-    text-transform: uppercase;
-    line-height: 1.2;
-    text-align: left;
-    position: absolute;
-    left: 449.937px;
-    top: 382.6px;
-    z-index: 19;
-  }
+
 .article-text {
     font-size: 15px;
     font-family: "Roboto", sans-serif;
     color: #999999;
 
 }
-.Lorem_ipsum_dolor_sit_amet__consectetur_adipisc {
+.who-we-are {
+
+}
+.text {
+    width: 1046px;
+    font-size: 15px;
+    color: #999;
+    text-align: center;
+    line-height: 24px;
+    justify-content: center;
+    margin-left: 124px;
+}
+.foto-img {
+    width: 380px;
+    height: 474px;
+    background-color: #95e1d3;
+}
+/* .foto-img-hover {
+    display: none;
+} */
+.foto-img-hover {
+    width: 380px;
+    height: 474px;
+    display: flex;
+}
+.icon {
+    width: 56px;
+    height: 56px;
+}
+.team {
+    display: flex;
+    justify-content: space-between;
+}
+.name {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    color: #333;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+}
+.profession {
     font-size: 15px;
     font-family: "Roboto", sans-serif;
-    color: rgb(153, 153, 153);
+    color: #999;
+    font-style: italic;
     line-height: 1.6;
-    text-align: left;
-    position: absolute;
-    left: 449.5px;
-    top: 437.619px;
-    width: 273px;
-    height: 39px;
-    z-index: 20;
-  }
-  
+    text-align: center;
+}

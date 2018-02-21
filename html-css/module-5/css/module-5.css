@@ -45,6 +45,9 @@ nav {
     line-height: 11px;
     font-weight: bold;
 }
+.item:first-child >.link {
+    color: #46bfa9;
+}
 .slider {
     height: 600px;
     position: relative;
@@ -99,6 +102,7 @@ nav {
     background-color: #e9f0fd;
     height: 676px;
     position: relative;
+    padding-top: 100px;
 }
 .new { 
     font-size: 48px;
@@ -106,20 +110,19 @@ nav {
     text-transform: uppercase;
     color: #515151;
     text-align: center;
-    position: absolute;
-    top: 100px;
-    left: 608px;
-    z-index: 1;
+    position: relative;
+    margin: auto;
 }
-.line {
+.new:after {
     display: block;
+    content: '';
     height: 7px;
     width: 160px;
     background: #1abc9c;
     position: absolute;
-    top: 167px;
+    top: 70px;
     left: 720px;
-    z-index: 2;
+    z-index: 1;
 }
 .choose {
     position: absolute;
@@ -169,30 +172,24 @@ nav {
 .cart {
     display: none;
     position: absolute;
-    top: 50%;
+    top: 43%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 .box:hover > .cart {
     display: block;
 }
+.box:hover .thing {
+    background-color: #1abc9c;
+}
+.box:hover .price {
+    background-color: #7fd9c7;
+}
 .gray {
     background-color: rgba(115, 115, 115, 0.5);
     border: 10px solid rgba(255, 255, 255, 0.5);
     position: relative;
     height: 288px;
-}
-.green, .light {
-    display: inline-block;
-    height: 40px;
-}
-.green {
-    background-color: rgba(26, 188, 156, 0.5);
-    width: 199px;
-}
-.light {
-    background-color: rgba(127, 217, 199, 0.5);
-    width: 57px;
 }
 .fa-shopping-cart {
     font-size: 20px;
