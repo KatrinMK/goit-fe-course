@@ -28,8 +28,7 @@ ul {
     font-size: 30px;
     color: #9ce3d6;
     font-weight: bold;
-    font-family: "Montserrat", sans-serif;
-    vertical-align: top;
+    font-family: "Montserrat bold", sans-serif;
 }
 .menu {
     flex-basis: 60%;
@@ -55,17 +54,19 @@ ul {
 .nav-link {
     color: #95e1d3;
     font-size: 14px;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat regular', sans-serif;
     text-transform: uppercase;
+    text-align: center;
 }
 .we-work-with {
     margin: 134px 0;
 }
 .title {
     font-size: 30px;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat bold', sans-serif;
     color: #333;
     font-weight: bold;
+    line-height: 1.2;
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 90px;
@@ -83,7 +84,7 @@ ul {
 }
 .subtitle {
     font-style: 24px;
-    font-family: "KaushanScript", sans-serif;
+    font-family: 'Kaushan Script', cursive;
     text-align: center;
     color: #333;
     margin-bottom: 22px;
@@ -113,19 +114,20 @@ ul {
 }
 .article-title {
     font-size: 14px;
-    font-family: "Montserrat";
+    font-family: "Montserrat regular", sans-serif;
     text-transform: uppercase;
+    line-height: 1.2;
     color: #333333;
     margin-bottom: 20px;
 }
 .article-text {
     font-size: 15px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto regular", sans-serif;
     color: #999999;
 }
 .text {
-    width: 1046px;
     font-size: 15px;
+    font-family: "Roboto regular", sans-serif;
     color: #999;
     text-align: center;
     line-height: 24px;
@@ -141,7 +143,6 @@ ul {
     width: 380px;
     height: 474px;
     background-color: #95e1d3;
-
 }
 .foto:hover:after {
     display: block;
@@ -196,7 +197,7 @@ ul {
 }
 .name {
     font-size: 14px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat regular", sans-serif;
     color: #333;
     text-transform: uppercase;
     line-height: 1.2;
@@ -205,7 +206,7 @@ ul {
 }
 .profession {
     font-size: 15px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto LightItalic", sans-serif;
     color: #999;
     font-style: italic;
     line-height: 1.6;
