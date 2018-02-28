@@ -2,8 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    height: 1318px;
+}
+.wrapper {
+    /* height: 1318px; */
     width: 1400px;
+    margin-top: 40px;
 }
 a {
     text-decoration: none;
@@ -13,17 +16,16 @@ ul {
 }
 .header {
     background-color: #fff;
+    height: 76px;
 }
 .container {
-    max-width: 940px;
+    width: 940px;
     padding: 0 5px;
     margin: auto;
 }
-.box {
-    height: 65px;
+.head {
     display: flex;
     justify-content: space-between;
-    padding-top: 27px;
 }
 .logo {
     font-size: 26px;
@@ -32,26 +34,39 @@ ul {
     font-family: "Wisdom Script", sans-serif;
 }
 .menu {
-    flex-basis: 60%;
+    flex-basis: 52%;
 }
 .nav {
     display: flex;
     justify-content: space-between;
 }
-/* .item {
+.item {
     text-align: center;
 }
 .link {
-    color: #95e1d3;
+    color: #222;
     font-size: 14px;
     font-family: 'Montserrat regular', sans-serif;
     text-transform: uppercase;
     text-align: center;
-} */
-
+}
+.item:first-child {
+    color: #fed136;
+}
 .middle {
     height: 585px;
     background-color: #fff;
+}
+.title {
+    text-align: center;
+    text-transform: uppercase;
+}
+.subtitle {
+    text-align: center;
+}
+.box {
+    display: flex;
+    justify-content: space-between;
 }
 .bottom {
     height: 680px;
