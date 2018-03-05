@@ -1,0 +1,56 @@
+/* @font-face {
+    font-family: 'Wisdom Script';
+    src: url('kaushan-script-v6-latin/kaushan-script-v6-latin-regular.woff2') format('woff2'),
+         url('kaushan-script-v6-latin/kaushan-script-v6-latin-regular.woff') format('woff');
+    font-style: italic;
+    font-weight: bold;
+} */
+@font-face {
+    font-family: 'Wisdom Script';
+    src: url('marck-script-v8-latin/marck-script-v8-latin-regular.woff2') format('woff2'),
+         url('marck-script-v8-latin/marck-script-v8-latin-regular.woff') format('woff');
+    font-style: italic;
+    font-weight: bold;
+}
+/* @font-face {
+    font-family: 'Montserrat Regular';
+    src: url('montserrat-v12-latin/montserrat-v12-latin-regular.woff2') format('woff2'),
+         url('montserrat-v12-latin/montserrat-v12-latin-regular.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+} */
+/* @font-face {
+    font-family: 'Montserrat Regular';
+    src: url('montserrat-v12-latin (1)/montserrat-v12-latin-600.woff2') format('woff2'),
+         url('montserrat-v12-latin (1)/montserrat-v12-latin-600.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+} */
+@font-face {
+    font-family: 'Montserrat Regular';
+    src: url('Montserrat-Regular.woff2') format('woff2'),
+         url('Montserrat-Regular.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Montserrat Bold';
+    src: url('Montserrat Bold/Montserrat-Bold.woff2') format('woff2'),
+         url('Montserrat Bold/Montserrat-Bold.woff') format('woff');
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Droid Serif Italic';
+    src: url('Droid Serif Italic V1.woff2') format('woff2'),
+    url('Droid Serif Italic V1.woff') format('woff');
+    font-style: italic;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'RobotoSlab';
+    src: url('roboto-slab-v7-latin/roboto-slab-v7-latin-regular.woff2') format('woff2'),
+    url('roboto-slab-v7-latin/roboto-slab-v7-latin-regular.woff') format('woff');
+    font-style: normal;
+    font-weight: bolder;
+}

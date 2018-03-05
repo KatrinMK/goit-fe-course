@@ -5,54 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel='stylesheet' href='css/style.css'>
+    <link rel='stylesheet' href='css/font.css'>
 </head>
 <body>
-    <div class="wrapper">
-        <header class="header">
-            <div class="container">
-                <div class="head">
-                    <div class="logo">Golden</div>
-                    <nav class="menu">
-                        <ul class="nav">
-                            <li class="item"><a href="" class="link">Home</a></li>
-                            <li class="item"><a href="" class="link">Services</a></li>
-                            <li class="item"><a href="" class="link">Portfolio</a></li>
-                            <li class="item"><a href="" class="link">About</a></li>
-                            <li class="item"><a href="" class="link">Contact</a></li>
+    <div class='wrapper'>
+        <header class='header'>
+            <div class='container'>
+                <div class='head'>
+                    <div class='logo'>Golden</div>
+                    <nav class='menu'>
+                        <ul class='nav'>
+                            <li class='item'><a href='' class='link'>Home</a></li>
+                            <li class='item'><a href='' class='link'>Services</a></li>
+                            <li class='item'><a href='' class='link'>Portfolio</a></li>
+                            <li class='item'><a href='' class='link'>About</a></li>
+                            <li class='item'><a href='' class='link'>Contact</a></li>
                         </ul>
                     </nav>
                 </div>
             </div>
         </header>
-        <section class="middle">
-            <div class="container">
-                <h2 class="title">Services</h2>
-                <h4 class="subtitle">Proin iaculis purus consequat sem cure.</h4>
-                <div class="box">
-                    <div class="article">
-                        <img src="" alt="" class="article-img">
-                        <h3 class="article-title">E-Commerce</h3>
-                        <p class="article-text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum susciput aenean rhoncus posuere odio in tincidunt.</p>
-                    </div>
-                    <div class="article">
-                        <img src="" alt="" class="article-img">
-                        <h3 class="article-title">Responsive Web</h3>
-                        <p class="article-text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum susciput aenean rhoncus posuere odio in tincidunt.</p>
-                    </div>
-                    <div class="article">
-                        <img src="" alt="" class="article-img">
-                        <h3 class="article-title">Web Sequrity</h3>
-                        <p class="article-text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum susciput aenean rhoncus posuere odio in tincidunt.</p>
-                    </div>
+        <section class='middle'>
+            <div class='container'>
+                <h2 class='title'>Services</h2>
+                <h4 class='subtitle'>Proin iaculis purus consequat sem cure.</h4>
+                <div class='box'>
+                    <article class='article'>
+                        <div class='icon-border'>
+                            <img src='picture/Icon-Basket.png' alt='basket' class='article-img'>
+                        </div>
+                        <h3 class='article-title'>E-Commerce</h3>
+                        <p class='article-text'>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum susciput aenean rhoncus posuere odio in tincidunt.</p>
+                    </article>
+                    <article class='article'>
+                        <div class='icon-border'>
+                            <img src='picture/Icon-Laptop.png' alt='laptop' class='article-img'>
+                        </div>
+                        <h3 class='article-title'>Responsive Web</h3>
+                        <p class='article-text'>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum susciput aenean rhoncus posuere odio in tincidunt.</p>
+                    </article>
+                    <article class='article'>
+                        <div class='icon-border'>
+                            <img src='picture/Icon-Locked.png' alt='locked' class='article-img'>
+                        </div>
+                        <h3 class='article-title'>Web Sequrity</h3>
+                        <p class='article-text'>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum susciput aenean rhoncus posuere odio in tincidunt.</p>
+                    </article>
                 </div>
             </div>
         </section>
-        <section class="bottom">
-            <img src="picture/Map.png" alt="map" class="map">
-            <div class="container">
+        <footer class='footer'>
+            <div class='container'>
+                <h2 class='title'>Contact Us</h2>
+                <h4 class='subtitle'>Proin iaculis purus consequat sem cure.</h4>
+                <form action='#' method='get'>
+                    <div class='top-form'>
+                        <div class='form-left'>
+                            <input class='form-left-text' type='text' placeholder='your name*' name='yourname'>
+                            <input class='form-left-text' type='email' placeholder='your e-mail*' name='email'>
+                            <input class='form-left-text' type='text' placeholder='subject' name='subject'>
+                        </div>
+                        <div class='form-right'>
+                            <textarea class='form-right-text' rows='10' cols='50' placeholder='your message*' name='message'></textarea>
+                        </div>
+                    </div>
+                    <input class='send' type='button' value ='Send message'>
+                </form>
             </div>
-        </section>
+        </footer>
     </div>
 </body>
 </html>

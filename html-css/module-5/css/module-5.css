@@ -6,7 +6,7 @@
     font-family: 'Roboto', sans-serif;
 }
 .container {
-    width: 1600px;
+    width: 100%;
 }
 header {
     background-color: #fff;
@@ -20,14 +20,14 @@ header {
 .logo {
     font-size: 30px;
     text-transform: uppercase;
-    left: 245px;
+    left: 145px;
     top: 36px;
 }
 .logo::first-letter {
     color: #1abc9c;
 }
 nav {
-    right: 244px;
+    right: 144px;
     top: 42px;
     z-index: 2;
 }
@@ -50,6 +50,7 @@ nav {
 }
 .slider {
     height: 600px;
+    width: 100%;
     position: relative;
 }
 .slider:after {
@@ -58,7 +59,7 @@ nav {
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 0.522;
     position: absolute;
-    width: 1600px;
+    width: 100%;
     height: 600px;
     left: 0px;
     top: 0px;
@@ -69,7 +70,7 @@ nav {
     text-transform: uppercase;
     text-align: left;
     position: absolute;
-    left: 430px;
+    left: 330px;
     z-index: 1;
   }
 .slider-title {
@@ -93,10 +94,10 @@ nav {
     top: 224px;
 }
 .left {
-    left: 244px;
+    left: 144px;
 }
 .right {
-    left: 1252px;
+    left: 1152px;
 }
 .collection {
     background-color: #e9f0fd;
@@ -121,13 +122,13 @@ nav {
     background: #1abc9c;
     position: absolute;
     top: 70px;
-    left: 720px;
+    left: 620px;
     z-index: 1;
 }
 .choose {
     position: absolute;
     top: 255px;
-    left: 244px;
+    left: 144px;
     z-index: 1;
 }
 .box {
@@ -139,9 +140,11 @@ nav {
     margin-left: 0;
 }
 .img {
-    width: 256px;
-    height: 282px;
     display: block;
+}
+.caption {
+    position: absolute;
+    top: 282px;
 }
 .thing, .price {
     display: inline-block;
@@ -157,7 +160,7 @@ nav {
     text-align: left;
 }
 .price {
-    width: 57px;
+    width: 56px;
     background-color: #8c8c8c;
     text-align: center;
     margin-left: -4px;
@@ -165,14 +168,14 @@ nav {
 .box:hover:after {
     display: block;
     content: "";
-    width: 100%;
-    height: 100%;
+    width: 230px;
+    height: 300px;
     position: absolute;
 }
 .cart {
     display: none;
     position: absolute;
-    top: 43%;
+    top: 44%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -186,10 +189,12 @@ nav {
     background-color: #7fd9c7;
 }
 .gray {
-    background-color: rgba(115, 115, 115, 0.5);
-    border: 10px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(14, 13, 13, 0.5);
+    margin: 12px;
     position: relative;
-    height: 288px;
+    height: 260px;
+    width: 234px;
+    display: block;
 }
 .fa-shopping-cart {
     font-size: 20px;
