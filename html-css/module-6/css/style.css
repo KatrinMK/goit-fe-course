@@ -9,11 +9,6 @@ a {
 ul {
     list-style: none;
 }
-/* .wrapper {
-    width: 1920px;
-    height: 1690px;
-    background-color: #fff;
-} */
 .container {
     max-width: 1220px;
     padding: 27px 5px 90px;
@@ -28,6 +23,7 @@ ul {
     color: #9ce3d6;
     font-weight: bold;
     font-family: "Montserrat bold", sans-serif;
+    line-height: 36px;
 }
 .menu {
     flex-basis: 60%;
@@ -56,6 +52,7 @@ ul {
     font-family: 'Montserrat regular', sans-serif;
     text-transform: uppercase;
     text-align: center;
+    line-height: 14px;
 }
 .we-work-with {
     margin: 134px 0;
@@ -65,7 +62,7 @@ ul {
     font-family: 'Montserrat bold', sans-serif;
     color: #333;
     font-weight: bold;
-    line-height: 1.2;
+    line-height: 30px;
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 90px;
@@ -82,11 +79,12 @@ ul {
     z-index: 1;
 }
 .subtitle {
-    font-style: 24px;
+    font-size: 24px;
     font-family: 'Kaushan Script', cursive;
     text-align: center;
     color: #333;
     margin-bottom: 22px;
+    line-height: 24px;
 }
 .service {
     display: flex;
@@ -95,7 +93,7 @@ ul {
 }
 .serv {
     flex-basis: 30%;
-    margin-bottom: 100px;
+    margin-bottom: 96px;
 }
 .article {
     display: flex;
@@ -107,29 +105,22 @@ ul {
 .box {
     flex-basis: 80%;
 }
-.img-article {
-    width: 40px;
-    height: 35px;
-}
 .article-title {
     font-size: 14px;
     font-family: "Montserrat regular", sans-serif;
     text-transform: uppercase;
-    line-height: 1.2;
+    line-height: 14px;
     color: #333333;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
-.article-text {
-    font-size: 15px;
-    font-family: "Roboto regular", sans-serif;
-    color: #999999;
-}
-.text {
+.article-text, .text {
     font-size: 15px;
     font-family: "Roboto regular", sans-serif;
     color: #999;
-    text-align: center;
     line-height: 24px;
+}
+.text {
+    text-align: center;
     justify-content: center;
     margin-left: 124px;
 }
@@ -189,7 +180,7 @@ ul {
 .team {
     display: flex;
     justify-content: space-between;
-    margin-top: 90px;
+    margin-top: 86px;
 }
 .caption {
     margin-top: 30px;
@@ -199,15 +190,15 @@ ul {
     font-family: "Montserrat regular", sans-serif;
     color: #333;
     text-transform: uppercase;
-    line-height: 1.2;
+    line-height: 14px;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 11px;
 }
 .profession {
     font-size: 15px;
     font-family: "Roboto LightItalic", sans-serif;
     color: #999;
     font-style: italic;
-    line-height: 1.6;
+    line-height: 24px;
     text-align: center;
 }

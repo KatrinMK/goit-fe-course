@@ -3,13 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* .wrapper {
-    height: 1318px;
-    width: 1400px;
-    margin-top: 40px;
-} */
 body {
-    font-size: 16px;
+    font-size: 10px;
+    /* width: 100%; */
 }
 a {
     text-decoration: none;
@@ -18,7 +14,7 @@ ul {
     list-style: none;
 }
 .header {
-    margin: 2.5rem 0 7.813rem;
+    margin: 2.0625rem 0 7.813rem;
 }
 .container {
     width: 59.375rem;
@@ -28,6 +24,7 @@ ul {
 .head {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .logo {
     font-size: 1.625rem;
@@ -35,6 +32,7 @@ ul {
     font-family: "Wisdom Script", sans-serif;
     font-style: italic;
     font-weight: bold;
+    line-height: 41px;
 }
 .menu {
     flex-basis: 52%;
@@ -91,6 +89,7 @@ ul {
 }
 .article {
     text-align: center;
+    flex-basis: 31%;
 }
 .icon-border {
     height: 4.688rem;

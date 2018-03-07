@@ -19,20 +19,20 @@
     font-style: normal;
     font-weight: normal;
 } */
-/* @font-face {
+@font-face {
     font-family: 'Montserrat Regular';
     src: url('montserrat-v12-latin (1)/montserrat-v12-latin-600.woff2') format('woff2'),
          url('montserrat-v12-latin (1)/montserrat-v12-latin-600.woff') format('woff');
     font-style: normal;
     font-weight: normal;
-} */
-@font-face {
+}
+/* @font-face {
     font-family: 'Montserrat Regular';
     src: url('Montserrat-Regular.woff2') format('woff2'),
          url('Montserrat-Regular.woff') format('woff');
     font-style: normal;
     font-weight: normal;
-}
+} */
 @font-face {
     font-family: 'Montserrat Bold';
     src: url('Montserrat Bold/Montserrat-Bold.woff2') format('woff2'),
@@ -47,10 +47,17 @@
     font-style: italic;
     font-weight: normal;
 }
-@font-face {
+/* @font-face {
     font-family: 'RobotoSlab';
     src: url('roboto-slab-v7-latin/roboto-slab-v7-latin-regular.woff2') format('woff2'),
     url('roboto-slab-v7-latin/roboto-slab-v7-latin-regular.woff') format('woff');
+    font-style: normal;
+    font-weight: bolder;
+} */
+@font-face {
+    font-family: 'RobotoSlab';
+    src: url('roboto-slab-v7-latin (1)/roboto-slab-v7-latin-300.woff2') format('woff2'),
+    url('roboto-slab-v7-latin (1)/roboto-slab-v7-latin-300.woff') format('woff');
     font-style: normal;
     font-weight: bolder;
 }
