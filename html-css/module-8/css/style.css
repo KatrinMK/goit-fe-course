@@ -38,8 +38,9 @@ nav {
 }
 .menu-item {
     padding: 12px 18px;
+    border: 2px solid transparent;
 }
-.menu-item:last-child{
+.menu-item:hover {
     border: 2px solid #fff;
     border-radius: 20px;
 }
@@ -56,6 +57,7 @@ nav {
     font-family: 'Montserrat Bold', sans-serif;
     font-size: 20px;
     text-transform: uppercase;
+    font-weight: 700;
 }
 .header-top {
     margin-bottom: 38px;
@@ -72,6 +74,7 @@ nav {
     font-size: 18px;
     margin-bottom: 20px;
     text-align: center;
+    font-weight: lighter;
 }
 .find-partner {
     font-family: 'Montserrat Bold', sans-serif;
@@ -146,6 +149,7 @@ nav {
     font-family: 'Roboto Light', sans-serif;
     font-size: 13.97px;
     color: #666;
+    flex-wrap: lighter;
 }
 .other-partners {
     font-family: 'Montserrat Bold', sans-serif;
@@ -157,12 +161,12 @@ nav {
     border: 2px solid #ff4e50;
     border-radius: 20px;
 }
-@media (min-width: 768px) {
+@media (min-width: 680px) {
     .header {
         background-image: url(../picture/Smart.png);
     }
     .container {
-        width: 692px;
+        width: 680px;
     }
     .header-top {
         display: flex;
@@ -173,7 +177,9 @@ nav {
         padding-top: 12px;
     }
     .title {
-        margin-bottom: 40px;
+        font-size: 52px;
+        width: 472px;
+        margin: 0 auto 40px;
     }
     .sub-title {
         margin-bottom: 36px;
@@ -199,7 +205,7 @@ nav {
         order: -1;
     }
 }
-@media (min-width: 1200px){
+@media (min-width: 940px){
     .header {
         background-image: url(../picture/Object.png);
     }
