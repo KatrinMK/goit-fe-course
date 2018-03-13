@@ -24,18 +24,18 @@ img {
     background-color: #1a1915;
     padding: 19px 0 138px;
 }
-.container {
+.wrapper {
     width: 300px;
     padding: 0 10px;
     margin: auto;
 }
-nav {
+/* nav {
     margin-bottom: 115px;
-}
-.menu {
+} */
+/* .menu {
     display: flex;
     justify-content: center;
-}
+} */
 .menu-item {
     padding: 12px 18px;
     border: 2px solid transparent;
@@ -50,9 +50,9 @@ nav {
     font-size: 14px;
     font-weight: bold;
 }
-.logo {
+/* .logo {
     text-align: center;
-}
+} */
 .logo-text {
     font-family: 'Montserrat Bold', sans-serif;
     font-size: 20px;
@@ -67,13 +67,13 @@ nav {
     text-transform: uppercase;
     font-size: 30px;
     margin-bottom: 20px;
-    text-align: center;
+    /* text-align: center; */
 }
 .sub-title {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    margin-bottom: 20px;
-    text-align: center;
+    /* margin-bottom: 20px; */
+    /* text-align: center; */
     font-weight: lighter;
 }
 .find-partner {
@@ -81,7 +81,7 @@ nav {
     font-size: 14px;
     background-color: #ff4e50;
     border-radius: 20px;
-    text-align: center;
+    /* text-align: center; */
     padding: 14px 0;
     margin: 0 auto;
 }
@@ -93,18 +93,18 @@ nav {
     font-size: 22px;
     color: #333;
     margin-bottom: 20px;
-    text-align: center;
+    /* text-align: center; */
 }
 .box-article {
-    text-align: center;
+    /* text-align: center; */
 }
 .img-box {
     position: relative;
     margin: 0 auto 20px;
 }
-.img {
+/* .img {
     display: inline-block;
-}
+} */
 .img-icon {
     display: block;
     width: 40px;
@@ -131,19 +131,19 @@ nav {
 }
 .plane {
     background-color: #4e73db;
-    padding: 8px 7px;
+    /* padding: 8px 7px; */
 }
 .article-title {
     font-family: 'Montserrat Bold', sans-serif;
     font-size: 14px;
     color: #333;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 .article {
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 .article:last-child {
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
 }
 .article-text {
     font-family: 'Roboto Light', sans-serif;
@@ -165,7 +165,7 @@ nav {
     .header {
         background-image: url(../picture/Smart.png);
     }
-    .container {
+    .wrapper {
         width: 690px;
     }
     .header-top {
@@ -196,9 +196,6 @@ nav {
     .article {
         flex-basis: 45%;
     }
-    .article:nth-child(2n+2) {
-        margin-bottom: 0;
-    }
     .find-partner {
         width: 225px;
     }
@@ -216,12 +213,11 @@ nav {
     .main {
         padding-bottom: 75px;
     }
-    .container {
+    .wrapper {
         width: 960px;
     }
     .article {
         flex-wrap: none;
         flex-basis: 24%;
-        margin-bottom: 0;
     }
 }
