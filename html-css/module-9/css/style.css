@@ -65,9 +65,10 @@ nav {
     text-align: center;
 }
 .sub-title {
+    width: 220px;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    margin-bottom: 20px;
+    margin: 0 auto 20px;
     text-align: center;
     font-weight: lighter;
 }
@@ -165,7 +166,8 @@ nav {
         margin: 0 auto 40px;
     }
     .sub-title {
-        margin-bottom: 36px;
+        width: 404px;
+        margin: 0 auto 36px;
         font-size: 24px;
     }
     .main {
@@ -173,6 +175,9 @@ nav {
     }
     .find-partner {
         width: 225px;
+    }
+    .title-main {
+        margin-bottom: 36px;
     }
     .other-partners {
         width: 193px;
