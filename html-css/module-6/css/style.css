@@ -105,6 +105,9 @@ ul {
 .box {
     flex-basis: 80%;
 }
+.img-article {
+    align-self: start;
+}
 .article-title {
     font-size: 14px;
     font-family: "Montserrat regular", sans-serif;
@@ -130,8 +133,6 @@ ul {
 }
 .foto-img {
     display: block;
-    width: 380px;
-    height: 474px;
     background-color: #95e1d3;
 }
 .foto:hover:after {
