@@ -219,11 +219,11 @@ img {
     transition-duration: 200ms;
     transition-timing-function: linear;
 }
-.icon {
-    color: #f38181;
+.svg {
+    fill: #f38181;
 }
-.box-icon:hover .icon {
-    color: #fff;
+.box-icon:hover .svg {
+    fill: #fff;
 }
 .team {
     display: flex;
