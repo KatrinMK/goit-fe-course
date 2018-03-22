@@ -212,9 +212,15 @@ ul {
     padding: 14px 0;
 }
 .box-icon:hover {
-    background-color: #95e1d3;
+    background-color: #f38181;
     transition-duration: 200ms;
     transition-timing-function: linear;
+}
+.icon {
+    color: #f38181;
+}
+.box-icon:hover .icon {
+    color: #fff;
 }
 .team {
     display: flex;
