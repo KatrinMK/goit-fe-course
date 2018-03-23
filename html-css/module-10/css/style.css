@@ -212,7 +212,11 @@ img {
     height: 56px;
     background-color:#fce38a;
     text-align: center;
-    padding: 14px 0;
+    padding: 14px 0 15px;
+    margin-right: 1px;
+}
+.box-icon:last-child {
+    margin-right: 0;
 }
 .box-icon:hover {
     background-color: #f38181;
