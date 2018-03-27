@@ -31,19 +31,13 @@ img {
     margin: auto;
     padding: 27px 0 228px;
 }
+.wrapper {
+    background-color: #fff;
+}
 .container {
     max-width: 1220px;
     padding: 0 5px;
     margin: auto;
-}
-.header__header-top {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    margin-bottom: 165px;
 }
 .mogo {
     font-size: 30px;
@@ -92,6 +86,15 @@ img {
     text-transform: uppercase;
     text-align: center;
     line-height: 14px;
+}
+.header__header-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 165px;
 }
 .header__title {
     font-size: 150px;
@@ -149,7 +152,7 @@ img {
     margin-bottom: 22px;
     line-height: 24px;
 }
-.header__subtitle--size {
+.header__subtitle {
     font-size: 72px;
     line-height: 72px;
     color: #fff;
@@ -205,14 +208,14 @@ img {
     color: #999;
     line-height: 24px;
 }
-.article__title--left {
+.article__title {
     text-align: left;
     margin-bottom: 16px;
 }
-
-.who-we-are__text--center {
+.who-we-are__text {
     text-align: center;
-    margin-left: 124px;
+    width: 980px;
+    margin: auto;
 }
 .team__foto {
     position: relative;
@@ -311,7 +314,7 @@ img {
 .team__figcaption {
     margin-top: 30px;
 }
-.team__caption--name {
+.team__caption {
     margin-bottom: 11px;
 }
 .team__profession {
