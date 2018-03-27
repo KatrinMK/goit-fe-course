@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
-    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 a {
@@ -23,8 +23,8 @@ img {
     background-image: -webkit-linear-gradient(top, rgba(240, 140, 138, 0.8) 0%, rgba(239, 214, 133, 0.8) 100%),;
     background-image: -o-linear-gradient(top, rgba(240, 140, 138, 0.8) 0%, rgba(239, 214, 133, 0.8) 100%),;
     background-image: linear-gradient(180deg, rgba(240, 140, 138, 0.8) 0%, rgba(239, 214, 133, 0.8) 100%),
-    url(../picture/Layer15.png),
-    url(../picture/Layer15@2x.png);
+    url(../picture/optimizilla/Layer15-min.png),
+    url(../picture/optimizilla/Layer15@2x-min.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -371,3 +371,32 @@ img {
     margin-left: -5px;
     border: 1px solid #95e1d3;
 }
+/* .sprite {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.cart {
+    background: url(../picture/css_sprites.png) -10px -10px;
+}
+.glass {
+    background: url(../picture/css_sprites.png) -10px -20px;
+}
+.alarm {
+    background: url(../picture/css_sprites.png) -10px -20px;
+}
+.line-graph {
+    background: url(../picture/css_sprites.png) -10px -20px;
+}
+.computer {
+    background: url(../picture/css_sprites.png) -10px -20px;
+}
+.book {
+    background: url(../picture/css_sprites.png) -10px -20px;
+}
+.home {
+    background: url(../picture/css_sprites.png) -10px -20px;
+}
+.image {
+    background: url(../picture/css_sprites.png) -94px -10px;
+} */
