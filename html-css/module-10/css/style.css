@@ -17,7 +17,7 @@ img {
     max-width: 100%;
     height: auto;
 }
-.wrapper-img {
+.wrapper--img {
     width: 100%;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(240, 140, 138, 0.8)), to(rgba(239, 214, 133, 0.8))),;
     background-image: -webkit-linear-gradient(top, rgba(240, 140, 138, 0.8) 0%, rgba(239, 214, 133, 0.8) 100%),;
@@ -39,14 +39,20 @@ img {
     padding: 0 5px;
     margin: auto;
 }
-.mogo {
-    font-size: 30px;
+.font {
     color: #fff;
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
-    line-height: 36px;
 }
-.nav {
+.logo--mogo {
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: capitalize;
+}
+.logo--g {
+    text-transform: uppercase;
+}
+.header__nav {
     -ms-flex-preferred-size: 40.98%;
     flex-basis: 40.98%;
 }
@@ -98,9 +104,6 @@ img {
 }
 .header__title {
     font-size: 150px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    color: #fff;
     text-transform: uppercase;
     text-align: center;
     line-height: 140px;
@@ -110,9 +113,6 @@ img {
 .button {
     display: block;
     font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    color: #fff;
     text-align: center;
     text-transform: uppercase;
     border: solid 3px #fff;
@@ -212,7 +212,7 @@ img {
     text-align: left;
     margin-bottom: 16px;
 }
-.who-we-are__text {
+.who-we-are--text {
     text-align: center;
     width: 980px;
     margin: auto;
@@ -280,6 +280,7 @@ img {
     width: 56px;
     height: 56px;
     background-color:#fce38a;
+    fill: #f38181;
     text-align: center;
     padding: 14px 0 15px;
     margin-right: 1px;
@@ -289,18 +290,13 @@ img {
 }
 .team__box-icon:hover {
     background-color: #f38181;
+    fill: #fff;
     -webkit-transition-duration: 200ms;
     -o-transition-duration: 200ms;
        transition-duration: 200ms;
 -webkit-transition-timing-function: linear;
     -o-transition-timing-function: linear;
        transition-timing-function: linear;
-}
-.team__svg {
-    fill: #f38181;
-}
-.team__box-icon:hover .team__svg {
-    fill: #fff;
 }
 .who-we-are__team {
     display: -webkit-box;
@@ -362,41 +358,51 @@ img {
     height: 36px;
     width: 150px;
     background-color: #95e1d3;
-    color: #fff;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
     font-size: 15px;
     text-transform: uppercase;
     text-align: center;
     margin-left: -5px;
     border: 1px solid #95e1d3;
 }
-/* .sprite {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
 .cart {
-    background: url(../picture/css_sprites.png) -10px -10px;
+    display: block;
+    width: 18px; 
+    height: 15px;
+    background: url(../picture/css_sprites.png) -48px -114px;
 }
 .glass {
-    background: url(../picture/css_sprites.png) -10px -20px;
+    display: block;
+    width: 18px; 
+    height: 18px;
+    background: url(../picture/css_sprites.png) -10px -114px;
 }
 .alarm {
-    background: url(../picture/css_sprites.png) -10px -20px;
+    width: 32px; 
+    height: 31px;
+    background: url(../picture/css_sprites.png) -62px -62px;
 }
 .line-graph {
-    background: url(../picture/css_sprites.png) -10px -20px;
+    width: 32px; 
+    height: 32px;
+    background: url(../picture/css_sprites.png) -10px -62px;
 }
 .computer {
-    background: url(../picture/css_sprites.png) -10px -20px;
+    width: 32px; 
+    height: 28px;
+    background: url(../picture/css_sprites.png) -114px -61px;
 }
 .book {
-    background: url(../picture/css_sprites.png) -10px -20px;
+    width: 32px; 
+    height: 32px;
+    background: url(../picture/css_sprites.png) -10px -10px;
 }
 .home {
-    background: url(../picture/css_sprites.png) -10px -20px;
+    width: 32px; 
+    height: 31px;
+    background: url(../picture/css_sprites.png) -114px -10px;
 }
 .image {
-    background: url(../picture/css_sprites.png) -94px -10px;
-} */
+    width: 32px; 
+    height: 32px;
+    background: url(../picture/css_sprites.png) -62px -10px;
+}
